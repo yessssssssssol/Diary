@@ -10,3 +10,7 @@ function area1() {
 const area2 = function () {
   return 'hi';
 };
+//화살표 함수 => 호이스팅 불가능
+const area3 = () => {
+  return 'hello';
+};
